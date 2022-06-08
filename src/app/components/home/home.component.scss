@@ -1,0 +1,117 @@
+.logo{
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    mat-form-field{
+        width: 50%;
+        border-radius: 2rem; 
+        // border: 1px solid #eee;
+        //    width: 50%;
+        // border: 1px solid;
+        // border-radius: 2rem;
+        // height: 50px;
+        // outline: none;
+        // line-height: 50px;
+        // font-size: 40px;
+    }
+    input{
+        line-height: 22px;
+    }
+}
+
+.barraBusqueda, .btn-s{
+    font-family:Poppins;
+}
+
+.iconoPrincipal{
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.localDrink{
+    padding-right: 30px;
+   
+}
+
+// .search-form{
+//     width: fit-content;
+// }
+
+.mat-card-title{
+    text-align: center;
+    font-family:Poppins;
+    padding: 14px;
+}
+
+.input-search{
+    width: 100%;
+    //max-width: 600px;
+    padding: 15px 30px;
+    justify-content: center;
+    box-shadow: 0 4px 24px 0 rgb(0 0 0 / 10%) !important;
+    border-radius: 12px !important;
+    font-family:Poppins;
+}
+.btn-s:not(:disabled){
+    background-color: #f57c00;
+}
+
+ .mat-form-field-flex {
+    width: 80% !important;
+}
+
+.searchInput{
+    font-style: white;
+    font-family:Poppins;
+}
+
+.barraBusqueda{
+    margin-right: 10px;
+    width: 48% !important;
+}
+
+.mat-select{
+    font-family:Poppins;
+}
+
+.mat-option{
+    font-family:Poppins;
+}
+
+.boton-buscar{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ @media only screen and (max-width: 768px) {
+    .mat-card{
+       width: 157% !important;
+    }
+    .buscar{
+        width: 97% !important;
+      }
+    .filtro{
+        width: 97% !important
+    }
+ }
+ @media only screen and (max-width: 425px) {
+    .mat-card{
+       width: 157% !important;
+    }
+    .buscar{
+        width: 97% !important;
+      }
+    .filtro{
+        width: 97% !important
+    }
+ }
+ @media only screen and (max-width: 320px) {
+    .mat-card{
+       width: 157% !important;
+    }
+    .buscar{
+        width: 80% !important;
+      }
+    .filtro{
+        width: 97% !important;
+    }
+ }

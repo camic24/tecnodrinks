@@ -1,0 +1,44 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    background: #7d4a38;
+    color: #fff;
+    font-family:Poppins;
+}
+
+.localDrinkIcon{
+  padding-right: 30px;
+}
+
+.text-white{
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 781px) {
+  .text-white{
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .text-white{
+    width: 104% !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .text-white{
+    width: 108% !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .text-white{
+    width: 112% !important;
+  }
+}
+@media only screen and (min-width: 381px) and (max-width: 403px) {
+  .text-white{
+    width: 100% !important;
+  }
+}

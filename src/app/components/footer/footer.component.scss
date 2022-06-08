@@ -1,0 +1,47 @@
+.footer{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  margin-top: auto;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar {
+    background: #1a1717;
+    color: #fff;
+    font-family:Poppins;
+}
+
+.text-white{
+  width: 100%;
+  text-align: left;
+}
+
+@media only screen and (min-width: 781px) {
+  .text-white{
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .text-white{
+    width: 104% !important;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .text-white{
+    width: 108% !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .text-white{
+    width: 112% !important;
+  }
+}
+@media only screen and (min-width: 381px) and (max-width: 403px) {
+  .text-white{
+    width: 100% !important;
+  }
+}

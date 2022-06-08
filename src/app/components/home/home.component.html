@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <form #form="ngForm" (submit)="onSearch(form)" class="d-flex align-center logo ">
+    <img src="assets/logo.png" class="iconoPrincipal img-fluid" />
+    <div style="width: 60%;" class="d-flex justify-content-center align-items-center">
+        <mat-card class="input-search">
+          <mat-card-title>Busca tus tragos favoritos!</mat-card-title>
+        <div class="search-form">
+          <div class="mbsc-col-12 mbsc-col-md-6 mbsc-col-lg-3">
+            <mat-form-field class="barraBusqueda buscar" appearance="outline">
+              <input ngModel name="search" class="searchInput" matInput type="text" placeholder="Buscar...">
+            <span matPrefix>
+              <mat-icon class="localDrink">local_drink</mat-icon>
+            </span>
+           </mat-form-field> 
+           <mat-form-field class="barraBusqueda filtro" appearance="outline">
+             <mat-select [(value)]="selected" placeholder="Mode"  [(ngModel)]="selected" name="category">
+               <mat-option value="name" selected>Por nombre</mat-option>
+               <mat-option value="category">Por categoria</mat-option>
+               <mat-option value="ingredients">Por ingrediente</mat-option>
+             </mat-select>
+           </mat-form-field>
+          </div>
+        </div> 
+        <div class="boton-buscar">
+          <button [disabled]="form.value.search==''" style="width: 200px;justify-content: center;" mat-stroked-button class="btn-s mr-2 "
+            color="secondary">Buscar</button>
+        </div>
+      
+      </mat-card>
+      </div>   
+    
+  
+      <div class="container-fluid">
+        <app-videoplayer></app-videoplayer>
+      </div>
+  </form>
+</div>
+<app-footer></app-footer>

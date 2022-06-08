@@ -1,0 +1,12 @@
+@import '~@angular/material/theming';
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Poppins, sans-serif',
+  $headline: mat-typography-level(32px, 48px, 700, 'Playfair Display, serif'),
+  $title: mat-typography-level(20px, 32px, 500, 'Playfair Display, serif'),
+  $subheading-2: mat-typography-level(16px, 28px, 400, 'Playfair Display, serif'),
+  $subheading-1: mat-typography-level(15px, 24px, 400,'Playfair Display, serif'),
+  $body-1: mat-typography-level(16px, 24px, 500)
+);
+
+@include mat-core($custom-typography);

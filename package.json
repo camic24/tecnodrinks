@@ -1,0 +1,55 @@
+{
+  "name": "obligatorioria",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "local": "ng serve",
+    "start": "node server.js",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "heroku-postbuild": "ng build --prod"
+  },
+  "engines": {
+    "node": "14.18.0",
+    "npm": "6.14.15"
+  },
+  "dependencies": {
+    "@angular-devkit/build-angular": "~12.0.2",
+    "@angular/animations": "~12.0.2",
+    "@angular/cdk": "^12.0.2",
+    "@angular/cli": "~12.0.2",
+    "@angular/common": "~12.0.2",
+    "@angular/compiler": "~12.0.2",
+    "@angular/compiler-cli": "~12.0.2",
+    "@angular/core": "~12.0.2",
+    "@angular/forms": "~12.0.2",
+    "@angular/localize": "~12.0.2",
+    "@angular/material": "^12.0.2",
+    "@angular/platform-browser": "~12.0.2",
+    "@angular/platform-browser-dynamic": "~12.0.2",
+    "@angular/router": "~12.0.2",
+    "@ng-bootstrap/ng-bootstrap": "^9.1.1",
+    "@videogular/ngx-videogular": "^5.0.1",
+    "bootstrap": "^4.5.0",
+    "express": "^4.18.1",
+    "lottie-web": "^5.7.8",
+    "ngx-lottie": "^7.0.1",
+    "path": "^0.12.7",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.1.0",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.5",
+    "@types/jasmine": "~3.6.0",
+    "@types/node": "^12.11.1",
+    "jasmine-core": "~3.7.0",
+    "karma": "^6.3.20",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage": "~2.0.3",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "typescript": "~4.2.3"
+  }
+}
